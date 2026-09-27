@@ -2,11 +2,11 @@
 
 **A distance-responsive drawing robot**
 
+[English](README.md) | [中文](README.zh-CN.md)
+
 ![Stitch drawing on paper](assets/hero.png)
 
 Stitch is a drawing robot that changes its movement based on distance. A front ToF sensor detects how close a person or object is, and the robot switches between approaching, pausing, moving side to side, and backing away. A rear pen records these actions as visible traces on paper.
-
-**中文简介：** Stitch 是一台会根据距离改变动作的绘图机器人。前置 ToF 传感器判断人或物体离它有多近，机器人随后在接近、停顿、左右摆动和后退之间切换。车尾的画笔会把这些动作留在纸上，让互动过程变成一张看得见的轨迹。
 
 ## Project overview
 
@@ -129,6 +129,7 @@ Serial commands:
 ```text
 stitch-drawing-robot/
 ├── README.md
+├── README.zh-CN.md
 ├── assets/
 ├── docs/
 │   └── development-and-testing.md
